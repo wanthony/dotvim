@@ -21,9 +21,10 @@ nnoremap <Leader>t :CtrlP<CR>
 nnoremap <Leader>b :CtrlPBuffer<CR>
 nnoremap <Leader>T :CtrlPClearCache<CR>:CtrlP<CR>
 inoremap jj <ESC>
+nnoremap <Leader>n :NERDTreeToggle<CR>
 
 " Custom Commands
-command Eplg :e ~/.vimrc.plugins
+command! Eplg :e ~/.vimrc.plugins
 
 " CtrlP Settings
 let g:ctrlp_working_path_mode = 'ra'
