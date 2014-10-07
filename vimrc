@@ -22,6 +22,7 @@ nnoremap <Leader>b :CtrlPBuffer<CR>
 nnoremap <Leader>T :CtrlPClearCache<CR>:CtrlP<CR>
 inoremap jj <ESC>
 nnoremap <Leader>n :NERDTreeToggle<CR>
+imap <C-d> <ESC>diwi
 
 " Custom Commands
 command! Eplg :e ~/.vimrc.plugins
