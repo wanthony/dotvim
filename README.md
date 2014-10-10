@@ -4,7 +4,27 @@ This repository contains my personal .vim configuration.  I use plug.vim to mana
 
 # Setup
 
-To set up the dotfiles properly, run through the following:
+## Setup With `setup.sh`
+
+I've provided a simple shell script that can be used to properly set up my dotvim configuration.  Simply run:
+
+```bash
+$ git clone git@github.com:wanthony/dotvim.git
+$ cd dotvim
+$ sh setup.sh
+```
+
+Output should look like the following:
+
+```text
+Linking /Users/awhite/code/dotvim -> /Users/awhite/.vim
+Linking /Users/awhite/code/dotvim/vimrc -> /Users/awhite/.vimrc
+Linking /Users/awhite/code/dotvim/vimrc.plugins -> /Users/awhite/.vimrc.plugins
+All done!  Enjoy my dotfiles!
+```
+
+## Manual Setup
+To set up the dotfiles manually, run through the following:
 
 ```bash
 $ cd
