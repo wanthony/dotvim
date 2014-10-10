@@ -25,4 +25,6 @@ Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 Plug 'fatih/vim-go'
 Plug 'terryma/vim-expand-region'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-notes'
 call plug#end()
