@@ -29,6 +29,7 @@ nnoremap <Leader>S :so ~/.vimrc<CR>
 
 " Custom Commands
 command! Eplg :e ~/.vimrc.plugins
+command! JsonCleanup :%!python -m json.tool
 
 " CtrlP Settings
 let g:ctrlp_working_path_mode = 'ra'
