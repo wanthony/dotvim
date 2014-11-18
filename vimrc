@@ -23,6 +23,9 @@ nnoremap <Leader>T :CtrlPClearCache<CR>:CtrlP<CR>
 inoremap jj <ESC>
 nnoremap <Leader>n :NERDTreeToggle<CR>
 imap <C-d> <ESC>diwi
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>E :e ~/.vimrc<CR>
+nnoremap <Leader>S :so ~/.vimrc<CR>
 
 " Custom Commands
 command! Eplg :e ~/.vimrc.plugins
