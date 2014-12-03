@@ -64,3 +64,20 @@ endif
 au BufWritePre * StripWhitespace
 au BufNew * EnableWhitespace
 
+" Vimux Commands
+nnoremap <Leader>nt :VimuxRunCommand "clear; npm test"<CR>
+nnoremap <Leader>vc :VimuxRunCommand "clear; cucumber"<CR>
+nnoremap <Leader>vr :VimuxRunCommand "clear; rspec"<CR>
+nnoremap <Leader>vd :VimuxCloseRunner<CR>
+nnoremap <Leader>vp :VimuxPromptCommand<CR>
+nnoremap <Leader>vg :VimuxRunCommand "clear; gulp"<CR>
+nnoremap <Leader>vpc :VimuxPromptCommand<CR>cucumber
+nnoremap <Leader>vpr :VimuxPromptCommand<CR>rspec
+nnoremap <Leader>vpg :VimuxPromptCommand<CR>gulp
+
+" Livedown Preview
+nnoremap <Leader>ldp :call LivedownPreview()<CR>
+
+" Move visual block
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
