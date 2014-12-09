@@ -79,6 +79,8 @@ nnoremap <Leader>vg :VimuxRunCommand "clear; gulp"<CR>
 nnoremap <Leader>vpc :VimuxPromptCommand<CR>cucumber
 nnoremap <Leader>vpr :VimuxPromptCommand<CR>rspec
 nnoremap <Leader>vpg :VimuxPromptCommand<CR>gulp
+
+" GitGuter Keymaps
 nnoremap <Leader>ggp :GitGutterPrevHunk<CR>
 nnoremap <Leader>ggn :GitGutterNextHunk<CR>
 nnoremap <Leader>ggr :GitGutterPreviewHunk<CR>
