@@ -1,43 +1,99 @@
 call plug#begin()
+" sensible.vim: Defaults everyone can agree on
+" http://www.vim.org/scripts/script.php?script_id=4391
 Plug 'tpope/vim-sensible'
+" My current preferred color scheme
 Plug 'jellybeans.vim'
+" Fuzzy file, buffer, mru, tag, etc finder.
+" http://kien.github.com/ctrlp.vim
 Plug 'kien/ctrlp.vim'
+" True Sublime Text style multiple selections for Vim
 Plug 'terryma/vim-multiple-cursors'
+" The most awesome Vim git client
 Plug 'tpope/vim-fugitive'
+" surround.vim: quoting/parenthesizing made simple
+" http://www.vim.org/scripts/script.php?script_id=1697
 Plug 'tpope/vim-surround'
+" An extensible & universal comment vim-plugin that also handles embedded
+" filetypes
+" http://www.vim.org/scripts/script.php?script_id=1173
 Plug 'tomtom/tcomment_vim'
+" Vim script for text filtering and alignment
 Plug 'godlygeek/tabular'
+" Provide an undo-tree (visual undo), with branching undo paths
 Plug 'sjl/gundo.vim'
+" Vim motions on speed!
+" http://www.vim.org/scripts/script.php?script_id=3526
 Plug 'Lokaltog/vim-easymotion'
+" lean & mean status/tabline for vim that's light as air
 Plug 'bling/vim-airline'
+" Syntax checking hacks for vim
 Plug 'scrooloose/syntastic'
+" CoffeeScript support for vim
 Plug 'kchmck/vim-coffee-script'
+" rails.vim: Ruby on Rails power tools
+" http://www.vim.org/scripts/script.php?script_id=1567
 Plug 'tpope/vim-rails'
+" Markdown Vim Mode
+" http://plasticboy.com/markdown-vim-mode/
 Plug 'plasticboy/vim-markdown'
+" Better whitespace highlighting for Vim
 Plug 'ntpeters/vim-better-whitespace'
+" A very simple file browser
 Plug 'tpope/vim-vinegar'
+" Search Dash.app from Vim
 Plug 'rizzatti/dash.vim'
+" endwise.vim: wisely add "end" in ruby, endfunction/endif/more in vim script,
+" etc
+" http://www.vim.org/scripts/script.php?script_id=2386
 Plug 'tpope/vim-endwise'
+" A very nice directory browser / tree-view
 Plug 'scrooloose/nerdtree'
+" vim: interpret a file by function and cache file automatically
 Plug 'MarcWeber/vim-addon-mw-utils'
+" Some utility functions for VIM
+" http://www.vim.org/scripts/script.php?script_id=1863
 Plug 'tomtom/tlib_vim'
+" Go development plugin for Vim
 Plug 'fatih/vim-go'
+" Vim plugin that allows you to visually select increasingly larger regions of
+" text using the same key combination.
 Plug 'terryma/vim-expand-region'
+" Miscellaneous auto-load Vim scripts
+" http://peterodding.com/code/vim/misc/
+" Requirement of xolox/vim-notes
 Plug 'xolox/vim-misc'
+" Easy note-taking in vim.  For more persistent notes than a scratch pad
 Plug 'xolox/vim-notes'
+" repeat.vim: enable repeating supported plugin maps with "."
 Plug 'tpope/vim-repeat'
+" abolish.vim: easily search for, substitute, and abbreviate multiple variants
+" of a word
 Plug 'tpope/vim-abolish'
+" A neovim color scheme
 Plug 'freeo/vim-kalisi'
+" Vim plugin to interact with tmux
 Plug 'benmills/vimux'
+" Retro groove color scheme for Vim
 Plug 'morhetz/gruvbox'
+" A color scheme with dark and light variants
 Plug 'noahfrederick/vim-hemisu'
+" A dark-background color scheme
 Plug 'noahfrederick/vim-noctu'
+" A dark-background color scheme
 Plug 'jeetsukumaran/vim-nefertiti'
+" Many pairs of keybinds.  For example, [q and ]q for :cprev and :cnext
 Plug 'tpope/vim-unimpaired'
+" Generate an HTML preview of any markdown file, and open in the browser
 Plug 'shime/vim-livedown'
+" Yet another snippet plugin.
 Plug 'SirVer/ultisnips'
+" Various snippets for many languages
 Plug 'honza/vim-snippets'
+" Very basic / bare-bones scratch file
 Plug 'mtth/scratch.vim'
+" Full-featured auto-complete.  Requires a very recent vim installation
 Plug 'Valloric/YouCompleteMe'
+" Git status in the line number gutter
 Plug 'airblade/vim-gitgutter'
 call plug#end()

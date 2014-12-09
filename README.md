@@ -58,3 +58,4 @@ I'm currently using the following plugins:
   trailing whitespace
 * vim-vinegar - A very simple alternative to plugins like NERDTree
 * vim-endwise - Provide closing `end` or closing curly braces automatically
+* And many more...  See [vimrc.plugins](vimrc.plugins) for a full list of installed plugins
