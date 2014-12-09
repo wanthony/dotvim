@@ -37,4 +37,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'shime/vim-livedown'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'mtth/scratch.vim'
+Plug 'Valloric/YouCompleteMe'
+Plug 'airblade/vim-gitgutter'
 call plug#end()

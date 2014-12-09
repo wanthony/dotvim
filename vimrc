@@ -26,6 +26,11 @@ imap <C-d> <ESC>diwi
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>E :e ~/.vimrc<CR>
 nnoremap <Leader>S :so ~/.vimrc<CR>
+nnoremap ggs :Scratch<CR>
+nmap [h <Plug>GitGutterPrevHunk
+nmap ]h <Plug>GitGutterNextHunk
+nmap <Leader>hs <Plug>GitGutterStageHunk
+nmap <Leader>hr <Plug>GitGutterRevertHunk
 
 " Custom Commands
 command! Eplg :e ~/.vimrc.plugins
@@ -74,6 +79,11 @@ nnoremap <Leader>vg :VimuxRunCommand "clear; gulp"<CR>
 nnoremap <Leader>vpc :VimuxPromptCommand<CR>cucumber
 nnoremap <Leader>vpr :VimuxPromptCommand<CR>rspec
 nnoremap <Leader>vpg :VimuxPromptCommand<CR>gulp
+nnoremap <Leader>ggp :GitGutterPrevHunk<CR>
+nnoremap <Leader>ggn :GitGutterNextHunk<CR>
+nnoremap <Leader>ggr :GitGutterPreviewHunk<CR>
+nnoremap <Leader>ggv :GitGutterRevertHunk<CR>
+nnoremap <Leader>ggs :GitGutterStageHunk<CR>
 
 " Livedown Preview
 nnoremap <Leader>ldp :call LivedownPreview()<CR>
@@ -81,3 +91,6 @@ nnoremap <Leader>ldp :call LivedownPreview()<CR>
 " Move visual block
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
+
+" GitGutter Config
+let g:gitgutter_diff_args = "-w"
