@@ -96,4 +96,6 @@ Plug 'mtth/scratch.vim'
 Plug 'Valloric/YouCompleteMe'
 " Git status in the line number gutter
 Plug 'airblade/vim-gitgutter'
+" Window / Buffer / Tab / Project Manager
+Plug 'szw/vim-ctrlspace'
 call plug#end()
