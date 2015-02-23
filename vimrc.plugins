@@ -98,4 +98,12 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'airblade/vim-gitgutter'
 " Window / Buffer / Tab / Project Manager
 Plug 'szw/vim-ctrlspace'
+" Darcula Color Scheme
+Plug 'blueshirts/darcula'
+" AngularJS Snippets
+Plug 'matthewsimo/angular-vim-snippets'
+" SuperTab
+Plug 'ervandew/supertab'
+" Cucumber features
+Plug 'tpope/vim-cucumber'
 call plug#end()

@@ -47,6 +47,7 @@ set sts=2
 set expandtab
 set shiftround
 set shiftwidth=2
+set relativenumber
 set number
 set noerrorbells
 set novisualbell
@@ -96,3 +97,14 @@ vnoremap K :m '<-2<CR>gv=gv
 
 " GitGutter Config
 let g:gitgutter_diff_args = "-w"
+
+" YouCompleteMe / UltiSnip / SuperTab
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+
+let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', '~/.vim/plugged/vim-snippets/UltiSnips', '~/.vim/UltiSnips/angular/']
