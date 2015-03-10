@@ -106,4 +106,18 @@ Plug 'matthewsimo/angular-vim-snippets'
 Plug 'ervandew/supertab'
 " Cucumber features
 Plug 'tpope/vim-cucumber'
+" Better fuzzy find
+Plug 'Shougo/unite.vim'
+" Org-mode-alike
+Plug 'dhruvasagar/vim-dotoo'
+" RSpec
+Plug 'thoughtbot/vim-rspec'
+" Angular Dependencies
+Plug 'MichaelRFairhurst/angular-dep.vim'
+" Async background tasks
+Plug 'tpope/vim-dispatch'
+" TypeScript
+Plug 'leafgarland/typescript-vim'
+" Tomorrow-Dark / Jellybeans Hybrid Scheme
+Plug 'w0ng/vim-hybrid'
 call plug#end()

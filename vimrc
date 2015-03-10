@@ -108,3 +108,12 @@ let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', '~/.vim/plugged/vim-snippets/UltiSnips', '~/.vim/UltiSnips/angular/']
+
+" vim-rspec settings
+let g:rspec_command = "!bundle exec rspec {spec}"
+let g:rspec_runner = "os_x_iterm"
+
+map <Leader>ra :call RunAllSpecs()<CR>
+map <Leader>rf :call RunCurrentSpecFile()<CR>
+map <Leader>rs :call RunNearestSpec()<CR>
+map <Leader>rl :call RunLastSpec()<CR>
